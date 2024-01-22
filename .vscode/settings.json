@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net7.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/028d0f80-b1ed-44d4-808a-29e25956fe52/resourceGroups/AzureLearning/providers/Microsoft.Web/sites/web-app-az"
+}
