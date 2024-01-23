@@ -27,7 +27,7 @@ namespace TangyWebApp.Controllers
             return View();
         }
 
-        public IActionResult Depolyment()
+        public IActionResult Deployment()
         {
             // throw new Exception("Testing Application Insights");
             return View();
