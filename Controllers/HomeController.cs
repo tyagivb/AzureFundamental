@@ -23,8 +23,14 @@ namespace TangyWebApp.Controllers
 
         public IActionResult Privacy()
         {
-            throw new Exception("Testing Application Insights");
-            //return View();
+           // throw new Exception("Testing Application Insights");
+            return View();
+        }
+
+        public IActionResult Depolyment()
+        {
+            // throw new Exception("Testing Application Insights");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
